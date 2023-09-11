@@ -12,7 +12,7 @@ abstract class GameObject {
 
 }
 class Snake : GameObject {
-    
+
 }
     interface Ire
 }
@@ -22,4 +22,6 @@ class Program {
         Square
     }
 }
-
+private vodi ChangeShape() {
+    Console.WriteLine("Menim");
+}
