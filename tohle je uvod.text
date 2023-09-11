@@ -1,0 +1,5 @@
+tohle je uvod
+git status
+git add program.cs/.
+git commit -m "added info"
+git push
