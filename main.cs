@@ -1,27 +1,54 @@
-using System;
-name space SchoolPrep {
+using system;
+
+interface Irectangle{
+void render();
+
+}
+ 
+ abstract class snake {
+    abstract public void move();
+
+ }
+
+class square {
+ private int w;
+ private int h;
+
+ public void render(){
+
+ }
+
+}
 
 
-abstract class GameObject {
-    
-    protected string name;
-    public void Move() {
+private void render(){
+
+    console.writeline("rendruju");
+}
+
+private void changeshape(){
+
+    console.writeline("menim");
+}
 
 
+class rectangle {
+ private int w;
+ private int h;
+
+ public void render()
+ {
+
+ }
+
+}
+
+
+class program{
+    public static void main (string[] args) {
+    rectangle 
     }
 
-}
-class Snake : GameObject {
 
-}
-    interface Ire
-}
-class Program {
-    public static void Main (string[] args) {
-        Rectangle r1 = new Rectangle();
-        Square
-    }
-}
-private vodi ChangeShape() {
-    Console.WriteLine("Menim");
+
 }
